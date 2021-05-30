@@ -1,5 +1,5 @@
 # XO_Game
-*Simple xo game implemented using javascript Programming Language.*
+*This is a simple xo game implemented using javascript Programming Language.*
 
 ## Table of Contents
 - Technologies Used
@@ -16,3 +16,6 @@
 [Salma Hamed](https://github.com/Salma-Hamed)
 
 ## User Guide
+1. The user chooses whether to play with x or o, and enters one of them in a small letter.
+2. The user is the first to play.
+3. When the game is over, the system prints out a message containig the result.
