@@ -9,16 +9,21 @@ var a, b, c, d, e, f, g, h, i;
     g = document.getElementById('_7');
     h = document.getElementById('_8');
     i = document.getElementById('_9');
-user = prompt("CHOOSE X or O");
-console.log(user);
-if(user == "x")
-{
-    comp = "o";
+function start(){
+    user = prompt("CHOOSE X or O");
+    user = user.toLocaleLowerCase();
+    a.value = ''; b.value = ''; c.value = ''; d.value = ''; e.value = ''; 
+    f.value = ''; g.value = ''; h.value = ''; i.value = '';
+    if(user == "x")
+    {
+        comp = "o";
+    }
+    else
+    {
+        comp = "x";
+    }
 }
-else
-{
-    comp = "x";
-}
+
 function getData(){
     /*1-dwar 3la row na2so wa7da bs 34an teksab
      2-lw mafee4 morba3 y5lik teksab dwar 3la row na2so wa7da wl user yksab 34an te2flha 3leh 
