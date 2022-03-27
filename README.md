@@ -16,6 +16,6 @@
 [Salma Hamed](https://github.com/Salma-Hamed)
 
 ## User Guide
-1. The user chooses whether to play with x or o, and enters one of them in a small letter.
+1. The user chooses whether to play with x or o.
 2. The user is the first to play.
 3. When the game is over, the system prints out a message containing the result.
